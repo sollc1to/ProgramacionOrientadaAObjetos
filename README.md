@@ -1,9 +1,24 @@
-# POO-Trabajo-Final-Visual
+# 🏢 POO – Trabajo Final: Gestión de Contratos Inmobiliarios
 
-Este es el trabajo final de la materia Programación Orientada a Objetos, desarrollado en Smalltalk. El proyecto modela una empresa dedicada a la venta de contratos de distintos inmuebles, incorporando los principios básicos de programación orientada a objetos como abstracción, encapsulamiento, herencia y polimorfismo.
+> 🎓 Proyecto final de **Programación Orientada a Objetos** en **Smalltalk**.  
+> Sistema para gestionar contratos de venta/alquiler de inmuebles, aplicando los 4 pilares de POO.
 
-El sistema está diseñado para representar diferentes tipos de contratos y propiedades inmobiliarias, permitiendo instanciar y gestionar objetos que representan clientes, inmuebles y contratos asociados. La implementación hace uso de herencia para especializar clases de contratos y propiedades, manteniendo una estructura de clases clara y reutilizable. Se trabajó en un entorno visual típico de Smalltalk, utilizando la sintaxis y herramientas del lenguaje para la definición de clases, métodos y mensajes entre objetos.
 
-El proyecto está orientado a servir como evidencia de comprensión de los conceptos de POO en Smalltalk y muestra cómo estos pueden aplicarse para modelar una situación del mundo real en la que se requiere gestionar entidades complejas y sus relaciones.
 
-Para explorar el código, se puede abrir la imagen (`.st`) en un entorno compatible con Smalltalk, a partir de la cual se podrán examinar las clases, métodos y pruebas implementadas.
+---
+
+##  Objetivo
+
+Modelar una empresa inmobiliaria que gestiona:
+-  **Clientes**
+-  **Inmuebles** (casas, departamentos, terrenos)
+-  **Contratos** (venta, alquiler, temporal)
+
+Aplicando los principios de POO:
+| Principio | Aplicación en el proyecto |
+|-----------|---------------------------|
+| 🔹 Abstracción | Clases `Cliente`, `Inmueble`, `Contrato` representan entidades del dominio |
+| 🔹 Encapsulamiento | Atributos privados con acceso mediante mensajes |
+| 🔹 Herencia | `ContratoVenta` y `ContratoAlquiler` heredan de `Contrato` |
+| 🔹 Polimorfismo | Método `calcularMonto()` se comporta distinto según el tipo de contrato |
+
